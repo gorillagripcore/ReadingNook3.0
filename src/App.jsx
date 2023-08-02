@@ -1,5 +1,3 @@
-
-import './App.css'
 import  StartPage from './startpage'
 
 function App() {
