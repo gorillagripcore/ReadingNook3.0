@@ -74,16 +74,38 @@ p {
 .join-button {
   display: flex;
   justify-content: center;
+  border-radius: 20px;
+  border-style: none;
+  height: 45px;
+  width: 150px;
+}
+
+.gradient1 {
   background: rgb(224, 188, 192);
   background: linear-gradient(
     70deg,
     rgba(224, 188, 192, 1) 30%,
     rgba(157, 143, 176, 1) 100%
   );
-  border-radius: 20px;
-  border-style: none;
-  height: 45px;
-  width: 150px;
+}
+
+.gradient2 {
+  background: rgb(68, 117, 157);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 117, 157, 1) 22%,
+    rgba(135, 182, 188, 1) 72%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.gradient3 {
+  background: rgb(224, 188, 192);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 188, 192, 1) 24%,
+    rgba(250, 240, 190, 1) 78%
+  );
 }
 
 .join-button img {
