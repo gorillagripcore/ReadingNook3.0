@@ -32,6 +32,36 @@ function StartPage() {
     <>
       <img className="readingnookbanner" src={currentImage} alt="Banner" />
 
+      <div className="gradient-button-container flex-container">
+        <button
+          className="gradient-button"
+          onClick={() => {
+            handleImageChange(imageUrls[0]);
+            handleGradientChange(gradients[0]);
+          }}
+        >
+          ✨
+        </button>
+        <button
+          className="gradient-button"
+          onClick={() => {
+            handleImageChange(imageUrls[1]);
+            handleGradientChange(gradients[1]);
+          }}
+        >
+          🌌
+        </button>
+        <button
+          className="gradient-button"
+          onClick={() => {
+            handleImageChange(imageUrls[2]);
+            handleGradientChange(gradients[2]);
+          }}
+        >
+          💫
+        </button>
+      </div>
+
       <div className="information-grid">
         <div className="information-item">
           <p className="about-platform">
@@ -123,33 +153,6 @@ function StartPage() {
             friends, and cultivate a love for reading together.
           </p>
         </div>
-      </div>
-
-      <div>
-        <button
-          onClick={() => {
-            handleImageChange(imageUrls[0]);
-            handleGradientChange(gradients[0]);
-          }}
-        >
-          Button 1
-        </button>
-        <button
-          onClick={() => {
-            handleImageChange(imageUrls[1]);
-            handleGradientChange(gradients[1]);
-          }}
-        >
-          Button 2
-        </button>
-        <button
-          onClick={() => {
-            handleImageChange(imageUrls[2]);
-            handleGradientChange(gradients[2]);
-          }}
-        >
-          Button 3
-        </button>
       </div>
     </>
   );

@@ -37,6 +37,7 @@ p {
 }
 
 .bookshelf1 {
+  padding: 10px;
   margin-top: 10px;
   width: 160px;
 }
@@ -44,6 +45,7 @@ p {
 .bookshelf2 {
   width: 160px;
   margin-left: auto;
+  padding: 10px;
 }
 
 .readingnookbanner {
@@ -80,32 +82,16 @@ p {
   width: 150px;
 }
 
-.gradient1 {
-  background: rgb(224, 188, 192);
-  background: linear-gradient(
-    70deg,
-    rgba(224, 188, 192, 1) 30%,
-    rgba(157, 143, 176, 1) 100%
-  );
+.gradient-button-container {
+  grid-template-columns: 20px 20px 20px;
+  display: grid;
+  grid-gap: 100px;
 }
 
-.gradient2 {
-  background: rgb(68, 117, 157);
-  background: linear-gradient(
-    90deg,
-    rgba(68, 117, 157, 1) 22%,
-    rgba(135, 182, 188, 1) 72%,
-    rgba(255, 255, 255, 1) 100%
-  );
-}
-
-.gradient3 {
-  background: rgb(224, 188, 192);
-  background: linear-gradient(
-    90deg,
-    rgba(224, 188, 192, 1) 24%,
-    rgba(250, 240, 190, 1) 78%
-  );
+.gradient-button {
+  border-style: none;
+  background-color: #ffffff00;
+  margin-top: 10px;
 }
 
 .join-button img {
@@ -130,7 +116,6 @@ p {
 }
 
 .three-information-boxes {
-  margin-top: 20px;
   background-color: white;
   border-radius: 20px;
 }
